@@ -1,0 +1,78 @@
+/* Global styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-center {
+  width: clamp(320px, 90%, 1200px);
+  margin: auto;
+}
+
+:root {
+  --clr-bg-primary-1: #d7d7d757;
+  --clr-bg-1: #a5f3fc2e;
+  --clr-dark: #030303;
+  --clr-grey-50: #e1e1e1;
+  --transition: 0.3s all;
+}
+
+nav {
+  height: 3rem;
+  box-shadow: 1px 1px 10px #00000027;
+  background-color: #fff;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.d-flex {
+  display: flex;
+}
+button {
+  border: none;
+  outline: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.custom-loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #766df4 #0000;
+  animation: s1 1s infinite;
+}
+@keyframes s1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+select {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.react-datepicker__month-container{
+  /* color: rgba(255, 0, 0, 0) !important; */
+}
+.react-datepicker__header{
+  background-color: #fff !important;
+  border-bottom: none !important;
+}

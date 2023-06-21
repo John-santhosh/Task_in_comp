@@ -1,0 +1,4 @@
+export const SELECT_USERS = "SELECT_USERS";
+export const SET_ALL_TASK = "SET_ALL_TASK";
+export const TASK_LOADING = "TASK_LOADING";
+export const TASK_LOADING_SUCCESS = "TASK_LOADING_SUCCESS";
